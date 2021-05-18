@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'change';
+  markSelected : string = "Volvo";
+  marks: string[] = ["Volvo", "Toyota", "Mercedes","Hyundai"];
+
 }
